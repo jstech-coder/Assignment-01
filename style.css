@@ -188,3 +188,79 @@ body {
   font-size: 50px;
   font-weight: 800px;
 }
+.qoutes-section {
+  margin: 20px 120px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(249, 225, 225);
+}
+.author {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin: 10px 0px;
+}
+.author-job {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+/* news section is start here */
+
+.news-section {
+  margin: 20px 120px;
+}
+.news-section h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+.Recent News p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.news-items {
+  display: flex;
+  margin: 32px 0px;
+  padding: 48px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+.news-img {
+  border-radius: 24px;
+  margin: 5px 0;
+}
+.news-content {
+  margin: 5px 32px;
+}
+.news-tittle {
+  margin: 10px 0px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+}
+.news-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin: 10px 0;
+}
+.news-btn {
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+}
