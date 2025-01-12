@@ -15,7 +15,7 @@ body {
 .nav-items {
   display: flex;
   justify-content: space-between;
-  padding: 24px 160px 24px 160px;
+  padding: 24px 120px;
   align-items: center;
 }
 .nav-items h2 {
@@ -37,8 +37,8 @@ body {
   background: rgb(198, 228, 214);
   justify-content: center;
   align-items: center;
-  margin: 0 160px;
-  padding: 40px 40px;
+  margin: 0 120px;
+  padding: 30px 30px;
 }
 .banner-items {
   margin-left: 20px;
@@ -65,4 +65,126 @@ body {
   width: 474.03px;
   height: 400px;
   margin: 0px 64px;
+}
+/* section one is start here */
+.section-1 {
+  margin: 80px 100px;
+}
+.section1-title h1 {
+  margin-left: 21px;
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+}
+.cards {
+  display: flex;
+}
+.card-items {
+  margin: 20px 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.card-items span {
+  display: flex;
+  margin: 10px 0;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+/* section two is start here */
+
+.section-2-title {
+  margin-left: 108px;
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+}
+.section-2-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin: 20px 120px;
+}
+
+.s-2-all-items {
+  display: flex;
+  margin: 0px 100px;
+  justify-content: center;
+  align-items: center;
+}
+.s-2-card-1 {
+  margin: 40px 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
+.s-2-card-1 h3 {
+  margin: 20px 0px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.s-2-card-1 button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  border: none;
+}
+.s-2-card-2 {
+  margin: 40px 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+.s-2-card-2 h3 {
+  margin: 20px 0px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.s-2-card-2 button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+}
+.s-2-card-3 {
+  margin: 40px 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+}
+.s-2-card-3 h3 {
+  margin: 20px 0px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.s-2-card-3 button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+}
+.boss {
+  color: brown;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800px;
 }
