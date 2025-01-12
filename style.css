@@ -393,3 +393,8 @@ body {
   line-height: 38px;
   text-align: center;
 }
+.icon {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0px;
+}
